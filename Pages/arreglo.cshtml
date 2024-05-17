@@ -1,0 +1,27 @@
+@page
+@model arregloP.Pages.aritmeticaModel
+@{
+    ViewData["Title"] = "Operaciones con Arreglos";
+}
+
+<h1>Operaciones con Arreglos</h1>
+<form method="post">
+    <button type="submit" class="btn btn-primary">Generar Lista Aleatoria</button>
+</form>
+
+@if (Model != null && Model.Resultados != default)
+{
+    <h2>Lista Aleatoria Generada</h2>
+    <ul style="list-style-type: none; padding: 0; margin: 0;">
+        @foreach (var numero in Model.ListaAleatoria)
+        {
+            <li style="display: inline-block; margin-right: 10px;">@numero</li>
+        }
+    </ul>
+
+    <h2>Resultados</h2>
+    <p>Suma: @Model.Resultados.sumaArreglo</p>
+    <p>Media Aritmética: @Model.Resultados.mediaAritmetica</p>
+    <p>Moda: @Model.Resultados.moda</p>
+    <p>Mediana: @Model.Resultados.mediana</p>
+}

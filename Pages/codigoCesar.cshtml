@@ -1,0 +1,23 @@
+@page
+@model codigoCesarP.Pages.CesarModel
+@{
+    ViewData["Title"] = "Codigo Cesar";
+}
+
+<h2>Cifrado César</h2>
+
+<form method="post">
+    <label for="message">Mensaje:</label>
+    <input type="text" id="message" name="Message" />
+
+    <label for="shift">Desplazamiento (n):</label>
+    <input type="number" id="shift" name="Shift" />
+
+    <input type="submit" name="Action" value="Cifrar" />
+    <input type="submit" name="Action" value="Descifrar" />
+</form>
+
+@if (Model.Result != null)
+{
+    <p>Resultado: @Model.Result</p>
+}
