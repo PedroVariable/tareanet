@@ -28,3 +28,4 @@ C:\Users\USUARIO\Desktop\tareaASPNET\obj\Debug\net8.0\refint\tareaASPNET.dll
 C:\Users\USUARIO\Desktop\tareaASPNET\obj\Debug\net8.0\tareaASPNET.pdb
 C:\Users\USUARIO\Desktop\tareaASPNET\obj\Debug\net8.0\tareaASPNET.genruntimeconfig.cache
 C:\Users\USUARIO\Desktop\tareaASPNET\obj\Debug\net8.0\ref\tareaASPNET.dll
+c:\Users\USUARIO\Desktop\tareaASPNET\obj\Debug\net8.0\tareaASPNET.sourcelink.json
